@@ -11,9 +11,9 @@ submit.addEventListener('click', () => {
 
   const inputString = input.value;
 
-  if (type.value === 'js64') {
+  if (type.value == 'js64') {
     output.value = `<script>document.write(atob("${btoa(inputString)}"));</script>`;
-  } else if (type.value === 'jsc') {
+  } else if (type.value == 'jsc') {
     const charCodesArray = stringToCharCodes(inputString);
     output.value = `<script>var y="";var x=[${charCodesArray}];x.forEach(char=>{y+=String.fromCharCode(char)});document.write(y);</script>`;
   }
