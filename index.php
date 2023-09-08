@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeMystify - Hide Your Code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="CodeMystify - Hide Your Code. Protect your code and enhance security with CodeMystify. Safeguard your intellectual property effortlessly using JavaScript obfuscation techniques.">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <script async="async" data-cfasync="false" src="//pl19715772.highcpmrevenuegate.com/72cca2607972566db507616fa7493279/invoke.js"></script>
+</head>
+<body>  
+    <div class="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700">
+        <div class="py-8 pl-8 w-full">
+            <h1 class="inline text-3xl font-bold text-white animate-pulse">CodeMystify</h1>
+            <a href="https://shahnishant.com.np/" class="inline-flex text-cyan-600 border-2 rounded-full border-cyan-600 px-6 py-2 float-right mx-6">Blog</a>
+        </div>
+        
+        <div class="h-96 flex items-center justify-center flex-col">
+            <h1 class="px-4 text-left font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-red-500 to-red-300 antialiased">Hide Your Code using CodeMystify</h1>
+            <p class="p-4 text-sm antialiased leading-relaxed text-justify text-slate-500">With CodeMystify, you can safeguard your intellectual property and enhance the security of your web projects effortlessly. It's the ultimate solution for protecting your code while ensuring it runs smoothly and securely.</p>
+            <a href="#converter" class="text-white border-2 rounded-full border-white px-6 py-2 float-right mx-6"> Hide Code </a>
+        </div>
+        
+        <div class="px-4">
+            <div id="container-72cca2607972566db507616fa7493279" class="roudned-full bg-white"></div>
+        </div>
+        <br>    
+    </div>
+    
+    <section id="converter">
+        <div class="mt-10 p-10">
+            <div class="flex flex-col mx-auto gap-2 max-w-lg">
+                <fieldset class="contents">
+                    <label for="type" class="block mb-2 text-sm font-medium text-gray-900">Obfuscating Output</label>
+                    <select id="type" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mb-4">
+                        <option value="js64">Javascript Base64</option>
+                        <option value="jsc">Javascript ASCII Chars</option>
+                    </select>
+                    
+                    <div class="flex flex-col">
+                        <label for="input" class="font-semibold text-lg">Enter Your Code</label>
+                        <textarea name="input" id="input" rows="5" required="" placeholder="Eg. <script>alert('Hide me');</script>" class="rounded-lg p-4 bg-black/5 border-2 border-solid h-48 border-black/10 font-mono font-medium text-sm"></textarea>
+                    </div>
+                    
+                    <button id="submit" class="rounded-lg p-3 bg-green-500/20 border-2 border-solid border-green-500/20 transition-colors hover:bg-green-500/40 font-medium text-base leading-none flex flex-row items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                            <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="font-bold">Hide Code Now</span>
+                    </button>
+                </fieldset>
+            </div>
+        </div>
+        
+        <div class="p-10">
+            <span class="text-xl font-bold">Hidden Code</span>
+            <fieldset class="contents">
+                <div class="flex flex-col">
+                    <textarea id="output" class="rounded-lg p-4 bg-black/5 border-2 h-48 border-solid border-black/10 font-mono font-medium text-sm"></textarea>
+                </div>
+            </fieldset>
+        </div>
+    </section>
+    
+    <div class="divider"></div>
+    
+    <script src="/convert.js"></script>
+</body>
+</html>
